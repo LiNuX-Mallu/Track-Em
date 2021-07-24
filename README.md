@@ -3,7 +3,7 @@
 <h4 align="center"><b>GPS Tracker Using Malicious URL</b></h4>
 <br>
 <h2>ABOUT TRACK-EM</h2>
-<p width="100%">This Tool can be used to locate an 
+<p width="100%">This Tool can be used to Track location of an 
 Android or ios or any other Devices which support 
 Geolocation . We use Javascript Geolocation api along with django-framework for  
 this attack . To know more about Geolocation api 
