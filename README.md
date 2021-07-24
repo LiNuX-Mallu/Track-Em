@@ -5,7 +5,7 @@
 <h2>ABOUT TRACK-EM</h2>
 <p width="100%">This Tool can be used to locate an 
 Android or ios or any other Devices which support 
-Geolocation . We use javascript Geolocation api along with django-framework for  
+Geolocation . We use Javascript Geolocation api along with django-framework for  
 this attack . To know more about Geolocation api 
 click <a href="https://www.w3.org/TR/geolocation/">here</a> .
 Tool aimed on educational purpose any misuse from 
