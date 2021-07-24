@@ -112,7 +112,7 @@ os.system("mv data/data data/"+name)
 print("\033[1;36meverything gone well !\033[37m")
 print("""\ndue to avoid misuse-
 connection limited to once at a time !
-press 'ctrl + c' to exit """)
+press 'ctrl + c' to exit  """)
 while True:
  try:
   None
