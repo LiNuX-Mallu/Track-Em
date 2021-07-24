@@ -1,0 +1,13 @@
+asgiref==3.4.1
+configparser==3.5.0
+Django==3.2.5
+django-sslserver==0.22
+djangosecure==0.0.11
+future==0.16.0
+pycryptodome==3.6.1
+pyfiglet==0.8.post1
+pyngrok==5.0.5
+pytz==2021.1
+PyYAML==5.4.1
+six==1.10.0
+sqlparse==0.4.1

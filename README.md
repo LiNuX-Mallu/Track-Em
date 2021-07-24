@@ -1,11 +1,11 @@
-<h1 align="center">Track-Em</h1>
+<h1 align="center" width="100%">Track-Em</h1>
 <img src="logo.jpeg" alt="logo" width="100%" height="auto">
 <p align="center"><b>GPS Locator using Malicious URL</b></p>
 <br>
 <h2>ABOUT TRACK-EM</h2>
-<p width="90%">This Tool can be used to locate an 
+<p width="100%">This Tool can be used to locate an 
 Android or ios or any other Devices which support 
-Geolocation . We use javascript Geolocation api for 
+Geolocation . We use javascript Geolocation api along with django-framework for  
 this attack . To know more about Geolocation api 
 click <a href="https://www.w3.org/TR/geolocation/">here</a> .
 Tool aimed on educational purpose any misuse from 
@@ -16,7 +16,7 @@ users are upto them .
 <p>linux platform</p>
 <p>hotspot needed if Termux</p>
 <br>
-<h4>Installation</h4>
+<h2>Installation</h2>
 <h3>Linux/Termux</h3>
 <p>$ apt install git python</p>
 <p>$ git clone https://github.com/KOMIK3R/Track-Em.git</p>
@@ -34,5 +34,5 @@ users are upto them .
 <h3>Ngrok Tips</h3>
 <p>- we use pyngrok so no need to install ngrok separately .</p>
 <p>- try turning on hotspot if you are using Termux .</p>
-<p>- try running command <b>"$ export USER=root"</b> if facing <b>cant find home directory warning</b> .</p>
-<p>- it is always better with authtoken . here is the command <b>$ pyngrok authtoken <your-token> </b> </p>
+<p>- try running command <b>"$ export USER=root "</b> if facing <b>"cant find home directory" warning</b> .</p>
+<p>- it is always better with authtoken . here is the command <b>"$ pyngrok authtoken your_token "</b> </p>
