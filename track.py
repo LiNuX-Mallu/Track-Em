@@ -20,8 +20,7 @@ except:
 
 def logo():
  ascii_banner = pyfiglet.figlet_format("TRACK-EM")
- print("\033[1;34m"+ascii_banner)
-
+ print("\033[1;34m"+ascii_banner+"\n\033[1;35m                                       By KOMIK3R\n\n") 
 print("\033c")
 
 try:
