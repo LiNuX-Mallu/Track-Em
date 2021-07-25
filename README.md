@@ -1,6 +1,6 @@
 <h1 align="center" width="100%">Track-Em</h1>
 <img src="logo.jpeg" alt="logo" width="100%" height="auto">
-<h4 align="center"><b>GPS Tracker Using Malicious URL</b></h4>
+<h3 background-color="black" align="center">GPS Location Tracker Using Malicious URL</h3>
 <br>
 <h2>ABOUT TRACK-EM</h2>
 <p width="100%">This Tool can be used to Track location of an 
