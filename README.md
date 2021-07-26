@@ -18,6 +18,7 @@ users are upto them .
 <br>
 <h2>Installation</h2>
 <h3>Linux/Termux</h3>
+<p>$ apt update && apt upgrade </p>
 <p>$ apt install git python</p>
 <p>$ git clone https://github.com/KOMIK3R/Track-Em.git</p>
 <p>$ cd Track-Em</p>
@@ -34,5 +35,5 @@ users are upto them .
 <h3>Ngrok Tips</h3>
 <p>- we use pyngrok so no need to install ngrok separately .</p>
 <p>- try turning on hotspot if you are using Termux .</p>
-<p>- try running command <b>"$ export USER=root "</b> if facing <b>"cant find home directory" warning</b> .</p>
+<p>- try running command <b>"$ export USER=root "</b> if facing <b>"cant find home directory"</b> warning .</p>
 <p>- it is always better with authtoken . here is the command <b>"$ pyngrok authtoken your_token "</b> </p>
