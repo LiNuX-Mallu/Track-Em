@@ -18,12 +18,16 @@ users are upto them .
 <br>
 <h2>Installation</h2>
 <h3>Linux/Termux</h3>
-<p>$ apt update && apt upgrade </p>
-<p>$ apt install git python</p>
-<p>$ git clone https://github.com/KOMIK3R/Track-Em.git</p>
-<p>$ cd Track-Em</p>
-<p>$ pip install -r requirements.txt</p>
-<p>$ python track.py</p>
+```
+
+$ apt update && apt upgrade
+$ apt install git python
+$ git clone https://github.com/KOMIK3R/Track-Em.git
+$ cd Track-Em
+$ pip install -r requirements.txt
+$ python track.py
+
+```
 <br>
 <h3>How To ?</h3>
 <a href="https://youtu.be/ZEoEVPo-dDk">- YOUTUBE TUTORIAL </a>
