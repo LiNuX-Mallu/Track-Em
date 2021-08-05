@@ -28,7 +28,6 @@ $ pip install -r requirements.txt
 $ python track.py
 
 ```
-<br>
 <h3>How To ?</h3>
 <a href="https://youtu.be/ZEoEVPo-dDk">- YOUTUBE TUTORIAL </a>
 <br>
