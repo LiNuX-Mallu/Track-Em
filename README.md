@@ -16,8 +16,8 @@ users are upto them .
 <p>linux platform</p>
 <p>hotspot needed if Termux</p>
 <br>
-<h2>Installation</h2>
-<h3>Linux/Termux</h3>
+
+##Installation (TERMUX/LINUX)
 ```
 
 $ apt update && apt upgrade
@@ -28,7 +28,7 @@ $ pip install -r requirements.txt
 $ python track.py
 
 ```
-<h3>How To ?</h3>
+##How To ?
 <a href="https://youtu.be/ZEoEVPo-dDk">- YOUTUBE TUTORIAL </a>
 <br>
 <p>- in PORT try a 4 digit port from range 8000 to 9000 .</p>
