@@ -22,7 +22,7 @@ users are upto them .
 
 $ apt update && apt upgrade
 $ apt install git python
-$ git clone https://github.com/KOMIK3R/Track-Em.git
+$ git clone https://github.com/LiNuX-Mallu/Track-Em.git
 $ cd Track-Em
 $ pip install -r requirements.txt
 $ python track.py
